@@ -1,7 +1,7 @@
 Cost=int(input("Enter Cost = "))
 Amount=int(input("Enter Balance = "))
 Balance=Amount-Cost
-print("Owing = ", Balance)
+print("Owing = £", Balance)
 fifty=int(Balance/50)
 if fifty>0:
 	print("£50 = ", fifty)
