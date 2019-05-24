@@ -1,0 +1,12 @@
+Physics=input("Enter Physics Mark - ")
+Chemistry=input("Enter Chemistry Mark - ")
+Math=input("Enter Math Mark - ")
+total=int(Physics)+int(Chemistry)+int(Math)
+per=total*100/850
+print("Physics - ",Physics)
+print("Chemistry - ",Chemistry)
+print("Math - ",Math)
+print("-----------------")
+print("%", per)
+print("Total Results =",total)
+print("-----------------")
