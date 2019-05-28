@@ -1,11 +1,11 @@
 msg=input("enter a message - ")
 word=" "
-i=0
-while i<len(msg):
+i=len(msg)-1
+while i>=0:
     if msg[i]==" ":
         print(word)
-        word=" "
+        word=""
     else:
-        word=word+msg[i]
-    i=i+1
+        word=msg[i]+word
+    i=i-1
 print(word)
