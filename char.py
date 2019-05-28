@@ -1,5 +1,8 @@
-msg=input("enter any message")
+word=0
+msg=input("enter any message ")
 i=0
 while i<len(msg):
-    print(msg[i])
+    if msg[i]==" ":
+        word=word+1
     i=i+1
+print("There are ",(word+1), "words")
