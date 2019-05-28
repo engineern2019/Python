@@ -1,5 +1,9 @@
+found=0
 msg=input("enter any message ")
-i=len(msg)-1
-while i>=0:
-    print(msg[i])
-    i=i-1
+char=input("what letter are you looking for? ")
+i=0
+while i<len(msg):
+    if msg[i]==char:
+        found = found +1
+    i=i+1
+print=found
