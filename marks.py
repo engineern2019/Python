@@ -1,5 +1,5 @@
-Physics=80
-Chemistry=100
+Physics=input("Enter Physics Mark - ")
+Chemistry=input
 Math=100
 total=Physics+Chemistry+Math
 per=total*100/450

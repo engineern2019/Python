@@ -5,7 +5,7 @@ if salary>2000:
 else:
 	tax=salary*15/100
 netsalary=salary-tax
-print("_____________________")
+print("---------------------")
 print("Name - ", name)
 print("Salary - ", salary)
 print("Tax - ", tax)
