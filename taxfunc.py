@@ -5,6 +5,6 @@ def tax(salary):
         tax=salary*15/100
     return tax
 
-    salary=int(input("Enter Salary"))
+salary=int(input("Enter Salary"))
 print("Your tax", tax(salary))
 print("Net", (salary-tax(salary)))
