@@ -4,4 +4,4 @@ def rev(x):
         if x[i] == " ":
             x=x[::-1]
             continue
-        print (x)
+            print (x)
