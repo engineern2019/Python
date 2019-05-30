@@ -1,4 +1,4 @@
-#wordcount using the list(will only work with capital letters)
+#wordcount using the list works with lower case as well.
 
 capletter=[0]*26
 letter=[0]*26
